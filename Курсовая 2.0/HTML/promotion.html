@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style/style_promotion.css">
+	<title>Волжский парк</title>
+</head>
+<body onload="lifeSite()">
+
+	<header>
+		<div class="logo"></div>
+		<div class="contacts">
+			<p>
+				Нижний Новгород
+				<br>
+				Волжский парк д.1.
+				<br>
+				+7(925)875 - 15 - 13
+			</p>	
+		</div>
+
+	<ul class="menu">
+		<li>
+			<a href="main.html">Главная</a>
+		</li>
+		<li>
+			<a href="about_us.html">О нас</a>
+		</li>
+		<li>
+			<a href="">Галерея</a>
+		</li>
+		<li>
+			<a href="">Новости</a>
+		</li>
+		<li>
+			<a href="promotion.html">Акции</a>
+		</li>
+		<li>
+			<a href="">Мероприятия</a>
+		</li>
+		<li>
+			<a href="">Контакты</a>
+		</li>
+	</ul>
+	</header>
+
+	<div class="information">
+		<h1>Розыгрыш Айфона!</h1>
+		<div class="timer">
+		  <div class="timer__items">
+		    <div class="timer__item timer__days">00</div>
+		    <div class="timer__item timer__hours">00</div>
+		    <div class="timer__item timer__minutes">00</div>
+		    <div class="timer__item timer__seconds">00</div>
+		  </div>
+		</div>
+		<p>Уважаемые гости нашего парка, в этом году нам исполняется 5 лет! В связи с этим мы решлили провести конкурс, призом которого будет являться новый телефон! Чтобы принять участие в конкурсе нужно всего лишь заполнить поля ниже и ждать результатов. Удачи!</p>
+
+		<div class="anketa">
+			<b>ФИО:</b>
+			<input class="fields" type="text" size="5">
+			<b>Номер телефона:</b>
+			<input class="fields" type="text">
+			<b>Почему Вам нравится наш парк?</b>
+			<textarea class="field_big" name="comment" cols="40" rows="3"></textarea>
+			<input class = "send_anketa" type="button" onclick='anketa()'value="Отправить">
+		</div>
+	</div>
+
+	<footer>
+		<a href="#">&copy; Волжский парк | Парк Ильи Фадина </a>
+		<br>
+		<p>Этому сайту уже: <span id="life_site" style="color: #0a0; font-size: 120%; font-weight: bold;"></span></p>
+	</footer>
+	<script src="../scripts/scripts.js"></script>
+</body>
+</html>

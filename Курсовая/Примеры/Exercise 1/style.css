@@ -1,0 +1,25 @@
+.wrapper{
+	width: 500px;
+	margin: 10px auto;	
+}
+header{
+	border: 2px solid black;
+	height: 50px;
+}
+.sidebar{
+	width: 30%;
+	border: 1px solid black;
+	height: 200px;
+	float: left;
+
+}
+.content{
+	width: 70%
+	float: left;
+	height: 200px;
+	border: 1px solid black;
+}
+.footer{
+	border: 1px solid black;
+	height: 100px;
+}

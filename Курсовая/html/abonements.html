@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style/style_abonements.css">
+	<link rel="icon" href="../images/fitness.ico" type="image/x-icon">
+	<title>Спортклуб Ривер</title>
+</head>
+
+<body>
+	<header>
+		<div class="header_logo"></div>
+		<div class="contacts_top">
+			+7 (920) 259 - 18 - 17
+			<br>
+			Нижний Новгород
+			<br>
+			ул. Дмитрия Никонова Д.16а
+		</div>
+		<div class="menu">
+			<ul class="menu_buttons">
+				<li>
+					<a href="main.html">Главная</a>
+				</li>
+				<li>
+					<a href="#">Абонементы</a>
+				</li>
+				<li>
+					<a href="#">Галерея</a>
+				</li>
+				<li>
+					<a href="#">О нас</a>
+				</li>
+				<li>
+					<a href="#">Контакты</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+		<div class="content">
+			<div class="content_left">
+
+				<div class = "head_abonement">
+					Выберете интересующую Вас услугу, чтобы узнать цену:
+				</div>
+				<select id ="abonement_selector" class="abonement_selector">
+				  <optgroup label="Клубная карта">
+				    <option value="1">Полная</option>
+				    <option value="2">Вечерняя</option>
+				    <option value="3">Жаворонок</option>
+				  </optgroup>
+				  <optgroup label="Секции">
+				    <option value="4">Плавание</option>
+				    <option value="5">Футбол</option>
+				    <option value="6">Тяжелая атлетика</option>
+				  </optgroup>
+				    <optgroup label="Аренда">
+				    <option value="7">Бассейн (1 дорожка)</option>
+				    <option value="8">Игровой зал</option>
+				    <option value="9">Футбольное поле</option>
+				  </optgroup>
+				</select>
+				<input type="button" class="btn_abonement" value="Узнать"  onclick="abonement_price()">
+				<div class="answer_for_abonement_selector">
+					<a id = "answer_for_abonement_selector_text" href=""></a>
+				</div>
+					<script src="scripts/script.js"></script>
+
+			</div>
+			<div class="content_right">
+				<div class="right_up"></div>
+				<div class="right_middle">
+					<div class="right_flag">
+						О клубе
+					</div>
+					<div class="right_text">Прекрасное место для поддержания здоровья!</div>
+					<div class="right_flag">Недавние публикации</div>
+					<div class="right_text">
+						Акция! 3 карты по цене 2-ух!
+						<hr>
+						Внимание! 26го октября, бассейн не работает в ...
+						<hr>
+						Топ 5 ошибок начинающего атлета
+						<hr>
+						Новая групповая программа пилатес
+					</div>
+					<div class="right_flag">Дополнительно</div>
+					<div class="right_text">Не забывайте посещать наши групповые занятия, у нас Вы сможете подобрать тренировки на любой выбор!</div>
+				</div>
+				<div class="right_down"></div>		
+			</div>
+	</div>
+	<div class="down">
+		<div class="down_widget">
+			<div class="down_widget_up"></div>
+			<div class="down_widget_middle">
+				<h3>Часы работы</h3>
+				Пн - пт: 6:30 - 23:30
+				<br>
+				Сб - вс: 8:00 - 23:00
+			</div>
+			<div class="down_widget_down"></div>
+		</div>
+		<div class="down_widget">
+			<div class="down_widget_up"></div>
+			<div class="down_widget_middle">
+				<h3>Адрес</h3>
+				Нижний Новгород, ул. Дмитрия Никонова
+				<br>
+				Д.16а
+			</div>
+			<div class="down_widget_down"></div>
+		</div>
+		<div class="down_widget">
+			<div class="down_widget_up"></div>
+			<div class="down_widget_middle">
+				<h3>Контакты</h3>
+				+7 (920) 259 - 18 - 17
+			</div>
+			<div class="down_widget_down"></div>
+		</div>
+	</div>
+	<footer>
+		&copy; Спортклуб Ривер | Спорт клуб Ильи Фадина <a href="#">fadinil</a> | Фото от <a href="#">@fadinil</a>
+	</footer>
+	<script src="../scripts/script_abonements.js"></script>
+</body>
+</html>	

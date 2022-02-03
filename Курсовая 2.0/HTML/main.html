@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style/style_main.css">
+	<title>Волжский парк</title>
+</head>
+<body onload="lifeSite()">
+
+	<header>
+		<div class="logo"></div>
+		<div class="contacts">
+			<p>
+				Нижний Новгород
+				<br>
+				Волжский парк д.1.
+				<br>
+				+7(925)875 - 15 - 13
+			</p>	
+		</div>
+
+	<ul class="menu">
+		<li>
+			<a href="main.html">Главная</a>
+		</li>
+		<li>
+			<a href="about_us.html">О нас</a>
+		</li>
+		<li>
+			<a href="">Галерея</a>
+		</li>
+		<li>
+			<a href="">Новости</a>
+		</li>
+		<li>
+			<a href="promotion.html">Акции</a>
+		</li>
+		<li>
+			<a href="">Мероприятия</a>
+		</li>
+		<li>
+			<a href="">Контакты</a>
+		</li>
+	</ul>
+	</header>
+
+	<div class="gallery">
+		<input type="button" class = "btn_l" value="" onclick="fLeft()">
+		<input type="button" class = "btn_r" value="" onclick="fRight()">
+	</div>
+
+	<div class="rules">
+		<h1>Правила</h1>
+		<div class="rules_pic">
+			<img src="..\images\map.svg" alt="map">
+			<img src="..\images\bike.svg" alt="bike">
+			<img src="..\images\dog_table.svg" alt="dog_table">
+			<img src="..\images\sigaret.svg" alt="sigaret">
+			<img src="..\images\flower.svg" alt="flower">
+		</div>
+		<div class="rules_text">
+			<p>Парк ждет вас каждый день с 7:00 до 22:00 со входами на остановках «Медицинская». Будем очень рады принять вас!</p>
+			<p>Для любителей велосипедных прогулок существуют велодорожки. Мы уже разрабатываем новые маршруты для вас!</p>
+			<p>С собаками в парке можно находиться на специальных площадках. Совсем скоро они будут открыты, поэтому временно воздержимся от выгула четвероногих в парке!</p>
+			<p>Курению, употреблению алкогольных напитков говорим решительное нет. На территории парка это запрещено!</p>
+			<p>Уверены, вы будете бережно относиться к растениям, газонам, оборудованию, помещениям и всему пространству парка. </p>
+		</div>
+	</div>
+
+	<div class="news">
+		<h1>Новости</h1>
+		<div class="post">
+			<a href="">Интересные факты о медведях</a>
+			<img src="..\images\post.jpg" alt="bear">
+			<p>Предлагаем ознакомиться с самыми интересными фактами о удивительных животных - медведях. 1. Медведи - это относительно молодое семейство животных, появились они приблизительно 5-6 миллионов лет назад.2. Все виды медведей невероятно умны. Эти животные очень любознательны, всегда пытаются исследовать новые и необычные объекты, обладают очень хорошей памятью. Так например, многие охотники и наблюдатели утверждают, что медведи подбрасывают камни и палки в капканы, чтобы их обезвредить и получить приманку; часто запутывают следы, ходя задом в перед и кругами......</p>
+			<a href="#">Читать далее..</a>
+		</div>
+	</div>
+
+	<footer>
+		<a href="#">&copy; Волжский парк | Парк Ильи Фадина  </a>
+		<p>Этому сайту уже: <span id="life_site" style="color: #0a0; font-size: 120%; font-weight: bold;"></span></p>
+	</footer>
+	<script src="../scripts/scripts.js"></script>
+</body>
+</html>
